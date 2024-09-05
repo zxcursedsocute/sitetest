@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.login a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 150px;
+}
